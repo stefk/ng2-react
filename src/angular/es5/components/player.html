@@ -1,0 +1,14 @@
+<h1>{{ title }}</h1>
+
+<h2>Items:</h2>
+
+<p *if="!hasItems()">No items</p>
+
+<ul>
+    <li *for="#item of getItems()">
+        {{ item }}
+    </li>
+</ul>
+
+<input #foo (keyup)="doneTyping($event)">
+<button (click)="addItem(foo.value)">Add item</button>

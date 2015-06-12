@@ -1,0 +1,45 @@
+{
+  "id": "1",
+  "steps": [
+    {
+      "id": "1",
+      "items": [
+        {
+          "type": "text/html",
+          "data": "Lorem ipsum dolor sit amet."
+        },
+        {
+          "type": "application/choices+json",
+          "data": {
+            "title": "Intention ?",
+            "choices": [
+              {
+                "id": "1",
+                "type": "text/plain",
+                "data": "Choice 1"
+              },
+              {
+                "id": "2",
+                "type": "text/plain",
+                "data": "Choice 2"
+              },
+              {
+                "id": "3",
+                "type": "text/plain",
+                "data": "Choice 3"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "items": [
+        {
+          
+        }
+      ]
+    }
+  ]
+}
